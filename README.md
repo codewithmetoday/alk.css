@@ -71,7 +71,7 @@ We welcome contributions! Follow these steps to contribute:
 ## 💖 Support Alk.css
 If you find Alk.css useful, consider supporting its development:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-orange)](https://www.buymeacoffee.com/YOUR_USERNAME)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-orange)](https://www.buymeacoffee.com/ankushminda)
 
 ## 📜 License
 Alk.css is licensed under the MIT License.
