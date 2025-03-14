@@ -1,82 +1,103 @@
-# alk.css - The Modern CSS Framework
+# Alk.css - Lightweight CSS Framework
 
-Alk.css is a lightweight, responsive, and modern CSS framework designed for effortless styling. With a simple class-based approach, it ensures fast and scalable development without requiring JavaScript.
+Alk.css is a modern, lightweight, and easy-to-use CSS framework designed to help developers style their HTML elements effortlessly. It provides a full-fledged styling system similar to Bootstrap, allowing users to build beautiful and responsive web pages with minimal effort.
+
+---
 
 ## 🚀 Features
-- **Fully Responsive** – Optimized for all screen sizes.
-- **Predefined Color Palettes** – Seamless theming with predefined styles.
-- **Modern Fonts** – Uses Ubuntu, Oxygen, and Nunito for a clean aesthetic.
-- **Dark Mode Support** – Easily toggle between light and dark themes.
-- **Utility Classes** – Includes margin, padding, text alignment, and more.
-- **CSS-Only Toast Notifications** – No JavaScript dependency.
-- **Prebuilt Components** – Includes buttons, forms, cards, navbars, grids, and other essential elements.
 
-## 📥 Installation
-### Using CDN (Recommended)
-Add the following link to your HTML file:
+- **Typography & Forms**: Headings, lists, paragraphs, inputs, buttons, selects, and more.
+- **Responsive Grid System**: 12, 6, 4, and 3-column layouts with breakpoints for all devices.
+- **Navigation Components**: Navbar, dropdowns, accordions, and tabs.
+- **Advanced UI Elements**: Progress bars, spinners, cards, tables, and more.
+- **Dark Mode Support**: Built-in dark mode for modern web design. 🌙
+- **Animations & Hover Effects**: Fade-in, fade-out, transitions, and hover effects.
+- **CSS-only Toast Notification System**: No JavaScript required for toast notifications.
+- **Predefined Color Schemes**: Consistent color palette using `#1e40af` and `#3b82f6`.
 
+---
+
+## 📦 Installation
+
+### Via CDN
+Include Alk.css in your project using the following CDN link:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codewithmetoday/alk.css@refs/heads/main/alk.css">
 ```
 
-### Via NPM
-```sh
-npm install alk.css
-```
-
-## 📖 Usage
-Apply predefined classes directly in your HTML:
-
+### Manual Download
+Download the `alk.css` file from the repository and include it in your project:
 ```html
-<button class="btn btn-primary">Click Me</button>
+<link rel="stylesheet" href="path/to/alk.css">
 ```
-
-For a responsive grid layout:
-```html
-<div class="container">
-    <div class="row">
-        <div class="col-6">Column 1</div>
-        <div class="col-6">Column 2</div>
-    </div>
-</div>
-```
-
-## 🎨 Color Palettes
-```html
-<div class="palette1">Primary</div>
-<div class="palette2">Success</div>
-<div class="palette3">Danger</div>
-```
-
-## 🌙 Dark Mode
-Enable dark mode by adding the `dark-mode` class to `body`:
-```html
-<body class="dark-mode">
-```
-
-## 🔔 CSS-Only Toast Notifications
-To display a toast notification:
-```html
-<div class="toast">This is a notification!</div>
-```
-
-## 🛠 Contribution Guidelines
-We welcome contributions! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`
-3. Make changes and commit: `git commit -m "Added new feature"`
-4. Push to your branch: `git push origin feature-name`
-5. Open a Pull Request.
-
-## 💖 Support Alk.css
-If you find Alk.css useful, consider supporting its development:
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-orange)](https://www.buymeacoffee.com/ankushminda)
-
-## 📜 License
-Alk.css is licensed under the MIT License.
 
 ---
 
-Start building with **Alk.css** today and create stunning, responsive websites with ease! 🚀
+## 📘 Usage
 
+Simply add predefined classes to your HTML elements to apply styles:
+
+```html
+<!-- Buttons -->
+<button class="btn btn-primary">Click Me</button>
+
+<!-- Cards -->
+<div class="card shadow">
+  <div class="card-header">Card Header</div>
+  <div class="card-body">This is a card.</div>
+  <div class="card-footer">Card Footer</div>
+</div>
+
+<!-- Grid System -->
+<div class="container">
+  <div class="row">
+    <div class="col-6">Column 1</div>
+    <div class="col-6">Column 2</div>
+  </div>
+</div>
+```
+
+---
+
+## 🎨 Color Palettes
+
+Alk.css follows a single consistent color scheme:
+- **Primary Color:** `#1e40af`
+- **Secondary Color:** `#3b82f6`
+
+These colors are used across buttons, backgrounds, text, and other components for a cohesive design.
+
+---
+
+## 🏗 Contributing
+
+We welcome contributions from the community! To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Submit a pull request with a detailed description of your changes.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you love **Alk.css** and find it useful, consider supporting the project:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-blue)](https://www.buymeacoffee.com/ankushminda)
+
+Your support helps maintain and improve the framework!
+
+---
+
+## ❤️ Credits
+
+If you use **Alk.css**, please give proper credits by linking to the GitHub repository or mentioning Alk.css in your project documentation. It helps the project grow and reach more developers!
+
+---
+
+## 📜 License
+
+Alk.css is released under the **MIT License**. It is free for personal and commercial use.
+
+---
+
+Start using **Alk.css** today and build beautiful web projects effortlessly! 🚀
